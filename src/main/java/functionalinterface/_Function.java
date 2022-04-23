@@ -22,6 +22,7 @@ public class _Function {
         System.out.println(incrementByOneAndMultiply(4, 100));
 
         System.out.println(incrementByOneAndMultiplyBiFunction.apply(4, 100));
+        System.out.println(lowerCase.apply("Murali"));
     }
 
     static Function<Integer, Integer> incrementByOneFunction = number -> number + 1;
@@ -39,5 +40,8 @@ public class _Function {
     static int incrementByOneAndMultiply(int number, int numToMultiplyBy) {
         return (number + 1) * numToMultiplyBy;
     }
+
+    static Function<String, String> lowerCase = str -> str.toLowerCase() + " Hello";
+
 
 }

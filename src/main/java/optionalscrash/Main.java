@@ -1,4 +1,4 @@
-package optionals.crash;
+package optionalscrash;
 
 import java.util.Optional;
 
